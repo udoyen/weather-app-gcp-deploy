@@ -49,7 +49,11 @@ const config = {
   // devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
-    hot: true
+    hot: true,
+    allowedHosts: [
+	'ace-demo-prep-proj.wn.r.appspot.com'
+
+    ]
   },
   plugins,
   module: {
