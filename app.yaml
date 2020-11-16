@@ -1,10 +1,9 @@
-runtime: custom
+runtime: nodejs
 env: flex
 
-instance_class: F4
+service: flex-non-custom
 
-runtime_config:
-  nodejs_version: 12
+instance_class: F4
 
 automatic_scaling:
   min_num_instances: 1
